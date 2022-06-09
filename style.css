@@ -1,0 +1,151 @@
+nav {
+    box-shadow: 10px 0px 10px grey;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li:hover {
+    background-color: #333;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.hero img {
+    background-size: cover;
+    background-position: 0px -250px;
+    height: 500px;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-top: 55px;
+}
+
+section.about {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightgray;
+}
+
+.col-md-6 {
+    float: left;
+    width: 50%;
+}
+
+.aboutImg img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    animation: fadeIn 3s ease;
+    -webkit-animation: fadeIn 5s ease;
+}
+
+/* .judul {
+    z-index: 2;
+    position: absolute;
+    animation: animasiJudul 2s ease;
+    -webkit-animation: animasiJudul 2s ease;
+} */
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        margin-top: 50px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+/* .aboutImg img:hover {
+    opacity: 1.0;
+    box-shadow: 10px 10px 10px lightgray;
+} */
+
+.aboutText {
+    text-align: justify;
+}
+
+.aboutText p {
+    margin-bottom: 15px;
+}
+
+.titleAbout {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.products {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: none;
+    margin: 25px;
+    box-shadow: 10px 10px 10px lightgray;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.card img {
+    padding: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+/* .card:hover {
+    background-color: #59a6d1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 75px 30px -35px lightgray;
+} */
+
+section.contact {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.map {
+    text-align: center;
+}
+
+.map iframe {
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    box-shadow: 5px 5px 5px lightgray;
+}
+
+.contactUsText {
+    padding: 0px 50px;
+}
+
+.titleContactUs {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
